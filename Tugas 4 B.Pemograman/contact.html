@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Website Pribadi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hubungi Saya</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Tentang Saya</a></li>
+            <li><a href="portfolio.html">Portofolio</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="contact.html" class="active">Kontak</a></li>
+        </ul>
+    </nav>
+    
+    <main class="contact-page">
+        <div class="contact-container">
+        <section class="contact-form">
+                <h2>Formulir Kontak</h2><h6><b>(ini tidak tehubung dengan PHP)</b></h6>
+                <form action="#" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap:</label>
+                            <input type="text" id="name" name="name" required placeholder="Nama Anda">
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="email">Alamat Email:</label>
+                            <input type="email" id="email" name="email" required placeholder="contoh@email.com">
+                        </div>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="purpose">Tujuan:</label>
+                        <select id="purpose" name="purpose" required>
+                            <option value="" disabled selected>Pilih tujuan kontak</option>
+                            <option value="kerja">Tawaran Kerja</option>
+                            <option value="proyek">Kolaborasi Proyek</option>
+                            <option value="tanya">Pertanyaan</option>
+                            <option value="lainnya">Lainnya</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="message">Pesan Anda:</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Tulis pesan Anda di sini..."></textarea>
+                    </div>
+                
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </section>
+        
+            <section class="contact-info">
+                <h2>Informasi Kontak</h2>
+                <div class="info-grid">
+                    <div>
+                        <h3>Email</h3>
+                        <p>322410008@student.machung.ac.id</p>
+                    </div>
+                    <div>
+                        <h3>Telepon</h3>
+                        <p>+62 812-9297-7336</p>
+                    </div>
+                </div>
+            
+                <div class="social-media">
+                    <h3>Media Sosial</h3>
+                    <ul>
+                        <li><a href="https://linkedin.com/contoh" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/contoh" target="_blank">GitHub</a></li>
+                        <li><a href="https://instagram.com/contoh" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Tugas Mandiri Kamis 8 Mei Oleh Jeremia. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
